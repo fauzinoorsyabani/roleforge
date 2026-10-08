@@ -3,8 +3,10 @@
   "framework": null,
   "rewrites": [
     {
-      "source": "/((?!src/|manus-routes\\.json|health).*)",
+      "source": "/((?!app\\.js|styles\\.css|manus-routes\\.json|health).*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "true",
+  "outputDirectory": "dist"
 }

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.mjs",
-    "start": "node server.mjs"
+    "dev": "node dev-server.mjs",
+    "start": "node dev-server.mjs"
   }
 }

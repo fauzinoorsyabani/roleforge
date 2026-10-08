@@ -12,7 +12,7 @@ This demo is intentionally dependency-light and uses deterministic local data so
 npm run dev
 ```
 
-The server listens on `http://localhost:3000` and honors the `PORT` environment variable.
+The development server listens on `http://localhost:3000` and honors the `PORT` environment variable. Vercel serves the same app as a static SPA, so browser assets load directly from `src/` and route rewrites only apply to app pages.
 
 ## Product thesis
 
